@@ -6,7 +6,7 @@
 
 <script>
 export default {
-    name:'Login',
+    name: "Login",
     data() {
         return {
 
@@ -14,7 +14,7 @@ export default {
     },
     methods: {
         handleLogin(){
-            this.$router.push('/registration');
+            this.$router.push('/homePage');
         }
     },
 

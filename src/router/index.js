@@ -7,7 +7,17 @@ export default new Router({
   routes: [
     {
       path: '/',
-      component: () => import('@/views/login')
+      redirect: '/login'
+    },
+    {
+      path: '/404',
+      component: () => import('@/views/error/404'),
+      hidden: true
+    },
+    {
+      path: '/login',
+      component: () => import('@/views/login'),
+      hidden: true
     },
     {
       path: '/registration',
