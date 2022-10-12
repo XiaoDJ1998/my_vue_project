@@ -7,7 +7,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect: '/login'
+      redirect: '/home'
     },
     {
       path: '/404',
@@ -22,6 +22,10 @@ export default new Router({
     {
       path: '/registration',
       component: () => import('@/views/registration')
+    },
+    {
+      path: '/home',
+      component: () => import('@/views/home')
     },
   ]
 })

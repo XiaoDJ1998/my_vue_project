@@ -1,7 +1,5 @@
 <template>
-    <el-row>
-        <el-button type="primary" @click="handleLogin">登录</el-button>
-    </el-row>
+    <el-button type="primary">主要按钮</el-button>
 </template>
 
 <script>
@@ -14,7 +12,7 @@ export default {
     },
     methods: {
         handleLogin(){
-            this.$router.push('/homePage');
+            this.$router.push('/registration');
         }
     },
 
@@ -22,5 +20,6 @@ export default {
 </script>
 
 <style>
+   
 
 </style>
