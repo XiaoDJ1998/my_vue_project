@@ -5,7 +5,7 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import App from './App'
 import router from './router';
-import './assets/gloable.css'; //引入全局css
+import './styles/global.css'; //引入全局css
 
 Vue.use(ElementUI);
 Vue.config.productionTip = false
