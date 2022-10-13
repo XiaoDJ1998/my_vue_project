@@ -7,7 +7,7 @@ import App from './App'
 import router from './router';
 import './styles/global.css'; //引入全局css
 
-Vue.use(ElementUI);
+Vue.use(ElementUI,{size:"small"});
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
